@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2rem;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    padding: 0 10px;
+    color: #333;
+}
+
+.card p {
+    padding: 0 1rem 1rem;
+    font-size: 1rem;
+    color: #666;
+}
+
+button {
+    width: 100%;
+    border: none;
+    background-color: lime;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+button:hover {
+    box-shadow: 10px 5px 5px grey;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+
+}
+
+input {
+    text-align: center;
+    color: #333;
+
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+.invisible {
+    display: none;
+}
